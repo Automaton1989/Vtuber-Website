@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #343940;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#home-page-main {
+  height: 600px;
+  weight: 100%;
+  background-color: red;
+}
+
+#home-page-creators {
+  height: 250px;
+  weight: 100%;
+  background-color: green;
+}
+
+#home-page-cardbreaks {
+  height: 250px;
+  weight: 100%;
+  background-color: cyan;
+}
+
+#home-page-charity {
+  height: 250px;
+  weight: 100%;
+  background-color: yellow;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
 }

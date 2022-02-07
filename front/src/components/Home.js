@@ -3,8 +3,9 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 
 function Home() {
-	const [products, setProducts] = useState([]);
+	//const [products, setProducts] = useState([]);
 
+/*
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
@@ -17,20 +18,34 @@ function Home() {
 		};
 		fetchData();
 	}, [])
+*/
+
+/*
+
+<Link to = "/login">
+	Go LOGIN
+</Link>
+
+*/
 
 	return (
-		<div>
-			<h1>HOME PAGE</h1>
-			<Link to = "/login">
-				Go LOGIN
-			</Link>
-			<ul>
-			{products.map(function (product, index) {
-				return (
-				<li key = {index}>{product.name}</li>
-				);
-			})}
-			</ul>
+		<div class = "container">
+			<div id = "home-page-main" class = "row">
+				<div class = "col-12">
+				</div>
+			</div>
+			<div id = "home-page-creators" class = "row">
+				<div class = "col-12">
+				</div>
+			</div>
+			<div id = "home-page-cardbreaks" class = "row">
+				<div class = "col-12">
+				</div>
+			</div>
+			<div id = "home-page-charity" class = "row">
+				<div class = "col-12">
+				</div>
+			</div>
 		</div>
 	);
 }
