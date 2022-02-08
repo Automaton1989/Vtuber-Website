@@ -22,13 +22,13 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#">Creators</a>
+              <Link className="nav-link" to="#">Creators</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Card Breaks</a>
+              <Link className="nav-link" to="#">Card Breaks</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <Link className="nav-link" to="#">About</Link>
             </li>
           </ul>
         </div>

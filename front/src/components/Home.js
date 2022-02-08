@@ -1,6 +1,7 @@
 import "../App.css";
 import React, { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import pic from "./img/main-background.jpeg"
 
 function Home() {
 	//const [products, setProducts] = useState([]);
@@ -29,21 +30,60 @@ function Home() {
 */
 
 	return (
-		<div class = "container">
-			<div id = "home-page-main" class = "row">
-				<div class = "col-12">
+		<div className = "container-fluid">
+			<div id = "home-page-main" className = "row">
+				<div className = "col-12">
+					<img src = {pic} id = "home-page-main-img" />
+					<div id = "home-page-main-text">
+						<h1>
+							Welcome to Main Box
+						</h1>
+						<button className = "btn btn-primary">
+							Join my team!
+						</button>
+					</div>
 				</div>
 			</div>
-			<div id = "home-page-creators" class = "row">
-				<div class = "col-12">
+			<div id = "home-page-creators" className = "row">
+				<div className = "col-12">
+					<div className="card">
+					  <img className="card-img-top" src="#" />
+					  <div className="card-body">
+					    <p className="card-text">CARD 1</p>
+					  </div>
+					</div>
+				</div>
+				<div className = "col-12">
+					<div className="card">
+					  <img className="card-img-top" src="#" />
+					  <div className="card-body">
+					    <p className="card-text">CARD 2</p>
+					  </div>
+					</div>
+				</div>
+				<div className = "col-12">
+					<div className="card">
+					  <img className="card-img-top" src="#" />
+					  <div className="card-body">
+					    <p className="card-text">CARD 3</p>
+					  </div>
+					</div>
 				</div>
 			</div>
-			<div id = "home-page-cardbreaks" class = "row">
-				<div class = "col-12">
+			<div id = "home-page-cardbreaks" className = "row">
+				<div className = "col-12">
+					<div className="card">
+					  <h5 className="card-header">Card Breaks</h5>
+					  <div className="card-body">
+					    <h5 className="card-title">Auto's Card Breaks</h5>
+					    <p className="card-text">Wanna join my card breaks for new Pokemon and Wixoss sets?</p>
+					    <Link to="#" class="btn btn-primary">Sign up for a break!</Link>
+					  </div>
+					</div>
 				</div>
 			</div>
-			<div id = "home-page-charity" class = "row">
-				<div class = "col-12">
+			<div id = "home-page-charity" className = "row">
+				<div className = "col-12">
 				</div>
 			</div>
 		</div>

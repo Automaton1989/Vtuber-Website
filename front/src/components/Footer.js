@@ -4,9 +4,9 @@ import { useNavigate, Link } from "react-router-dom";
 
 function Footer() {
   return (
-	<footer class="footer">
-      <div class="container">
-        <span class="text-light">Place sticky footer content here.</span>
+	<footer className="footer">
+      <div className="container">
+        <span className="text-light">Place sticky footer content here.</span>
       </div>
     </footer>
   );
