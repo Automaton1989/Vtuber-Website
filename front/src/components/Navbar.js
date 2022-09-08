@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link to="/" className="navbar-brand" href="#">Navbar</Link>
+        <Link to="/" className="navbar-brand" href="#">AUTO LOGO</Link>
           <button
             className="navbar-toggler collapsed"
             type="button"
@@ -22,13 +22,16 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#">Creators</a>
+              <Link className="nav-link" to="#">Streams</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Card Breaks</a>
+              <Link className="nav-link" to="#">Charity</Link>
+            </li>
+            <li className="nav-item active">
+              <Link className="nav-link" to="#">Merch</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <Link className="nav-link" to="#">About Me</Link>
             </li>
           </ul>
         </div>
