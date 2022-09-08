@@ -4,9 +4,9 @@ import { useNavigate, Link } from "react-router-dom";
 import pic from "./img/main-background.jpeg"
 
 function Home() {
-	//const [products, setProducts] = useState([]);
+	const [products, setProducts] = useState([]);
 
-/*
+
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
@@ -19,7 +19,7 @@ function Home() {
 		};
 		fetchData();
 	}, [])
-*/
+
 
 /*
 
@@ -34,14 +34,6 @@ function Home() {
 			<div id = "home-page-main" className = "row">
 				<div className = "col-12">
 					<img src = {pic} id = "home-page-main-img" />
-					<div id = "home-page-main-text">
-						<h1>
-							Welcome to Main Box
-						</h1>
-						<button className = "btn btn-primary">
-							Join my team!
-						</button>
-					</div>
 				</div>
 			</div>
 			<div id = "home-page-creators" className = "row">
@@ -84,6 +76,14 @@ function Home() {
 			</div>
 			<div id = "home-page-charity" className = "row">
 				<div className = "col-12">
+					<div className="card">
+					  <h5 className="card-header">Charity Events</h5>
+					  <div className="card-body">
+					    <h5 className="card-title">Yearly Charity Stream Marathon</h5>
+					    <p className="card-text">Next charity stream is March 16-20, 2022 in support of Monterey Bay Aquarium!</p>
+					    <Link to="#" class="btn btn-primary">View Events</Link>
+					  </div>
+					</div>
 				</div>
 			</div>
 		</div>

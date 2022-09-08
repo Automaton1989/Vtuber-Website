@@ -2,10 +2,10 @@ import "../App.css";
 import React from "react";
 import { useNavigate, Link } from "react-router-dom";
 
-function Login() {
+function AboutMe() {
 	return (
 		<div>
-			<h1>LOGIN PAGE</h1>
+			<h1>ABOUT ME PAGE</h1>
 			<Link to = "/">
 				Go HOME
 			</Link>
@@ -13,4 +13,4 @@ function Login() {
 	);
 }
 
-export default Login;
+export default AboutMe;
