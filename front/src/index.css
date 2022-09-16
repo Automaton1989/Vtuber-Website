@@ -58,6 +58,7 @@ code {
 #home-page-main {
   height: 600px;
   weight: 100%;
+  padding-top: 55px;
 }
 
 #home-page-main-img {
@@ -70,11 +71,16 @@ code {
   object-fit: cover;
 }
 
+.text-container {
+  border-radius: 15px;
+}
+
 .container-img-sm {
   position: absolute;
   top: 40%;
-  height: 55px;
-  width: 100%;
+  left: 10%;
+  height: 120px;
+  width: 300px;
   background-color: black;
   color: white;
 }
@@ -97,11 +103,31 @@ code {
   color: white;
 }
 
-.centered {
+.centered-sm {
   position: absolute;
-  top: 50%;
+  width: 100%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.btn-main {
+  top: 55%;
+  left: 35%;
+  background-color: darkorange;
+  position: absolute;
+  border: 1px darkorange;
+  color: white;
+}
+
+.btn:hover {
+  background-color:  white;
+  color: darkorange;
+}
+
+.btn:active {
+  background-color: white;
+  color: darkorange;
 }
 
 #home-page-main-text {
