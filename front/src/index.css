@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #343940;
+  background-color: #212529;
 }
 
 code {
@@ -24,6 +24,8 @@ code {
 .row {
   padding: 0rem;
   margin-bottom: 1rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
 }
 
 .col-12 {
@@ -31,21 +33,21 @@ code {
 }
 
 .btn {
-  color: black;
-  background-color: white;
-  border-color: white;
+  background-color: darkorange;
+  border: 1px darkorange;
+  color: #222222;
 }
 
 .btn:hover {
-  background-color: #e9e9e9;
-  border-color: #e9e9e9;
-  color: black;
+  background-color: #222222;
+  border-color: #222222;
+  color: darkorange;
 }
 
 .btn:active {
-  background-color: #e9e9e9;
-  border-color: #e9e9e9;
-  color: black;
+  background-color: #222222;
+  border-color: #222222;
+  color: darkorange;
 }
 
 .btn:focus {
@@ -55,10 +57,13 @@ code {
   box-shadow: 0 0 0 0.25rem #959595;
 }
 
+.btn-card {
+  border-radius: 0px;
+}
+
 #home-page-main {
   height: 600px;
-  weight: 100%;
-  padding-top: 55px;
+  width: 100%;
 }
 
 #home-page-main-img {
@@ -87,18 +92,20 @@ code {
 
 .container-img-md {
   position: absolute;
-  top: 28%;
-  height: 55px;
-  width: 100%;
+  top: 40%;
+  left: 30%;
+  height: 110px;
+  width: 360px;
   background-color: black;
   color: white;
 }
 
 .container-img-lg {
   position: absolute;
-  top: 50%;
-  height: 55px;
-  width: 100%;
+  top: 45%;
+  left: 35%;
+  height: 110px;
+  width: 400px;
   background-color: black;
   color: white;
 }
@@ -111,23 +118,39 @@ code {
   transform: translate(-50%, -50%);
 }
 
-.btn-main {
+.centered-md {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-lg {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  left: 50%;
+  padding: 1rem;
+  transform: translate(-50%, -50%);
+}
+
+.btn-main-sm {
   top: 55%;
   left: 35%;
-  background-color: darkorange;
   position: absolute;
-  border: 1px darkorange;
-  color: white;
 }
 
-.btn:hover {
-  background-color:  white;
-  color: darkorange;
+.btn-main-md {
+  top: 55%;
+  left: 40%;
+  position: absolute;
 }
 
-.btn:active {
-  background-color: white;
-  color: darkorange;
+.btn-main-lg {
+  top: 55%;
+  left: 40%;
+  position: absolute;
 }
 
 #home-page-main-text {
@@ -151,23 +174,118 @@ code {
   padding-bottom: 1rem;
 }
 
+#card-row {
+  padding-top: 1.5rem;
+}
+
 .card {
   height: 250px;
   margin-top: 1.5rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  background-color: #212529;
+  background-color: #2e2f30;
   color: white;
 }
 
-#home-page-streams {
-  height: 250px;
-  weight: 100%;
+.card-header {
+  border-bottom: solid 0.1rem darkorange;
 }
 
-#home-page-charity {
-  height: 250px;
-  weight: 100%;
+/*
+ABOUT ME STYLE
+*/
+
+.container-fluid {
+  padding-top: 4rem;
+  color: white;
+}
+
+#about-header-card {
+  margin-bottom: 0rem;
+}
+
+#ATBackground
+{
+    top: 50px;
+    height: 40%
+}
+
+.profile-card-3 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    height:368px;
+    border:none;
+    margin-bottom: 1rem;
+    color: white;
+}
+    .profile-card-3 .background-block {
+        float: left;
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .profile-card-3 .background-block .background {
+        position: relative;
+        top: 130px;
+        height: 100%;
+        width: 37%;
+        opacity: 0.9;
+            -webkit-transform: scale(1.8);
+        transform: scale(2.8);
+    }
+
+    .profile-card-3 .card-content {
+    width: 100%;
+    padding: 15px 25px;
+    color:white;
+    float:left;
+    background: #2e2f30;
+    height:55%;
+    border-radius:0 0 5px 5px;
+    position: relative;
+    z-index: 1;
+    }
+    .profile-card-3 .card-content::before {
+        content: '';
+        background: #2e2f30;
+        width: 120%;
+        height: 100%;
+        left: 11px;
+        bottom: 51px;
+        position: absolute;
+        z-index: -1;
+        transform: rotate(-13deg);
+    }
+    .profile-card-3 .profile {
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    min-height: 100px;
+    max-width: 100px;
+    opacity: 1;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 1);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    z-index:2;
+    }
+    .profile-card-3 h2 {
+    margin: 0 0 5px;
+    font-weight: 600;
+    font-size:25px;
+    }
+    .profile-card-3 h2 small {
+    display: block;
+    font-size: 15px;
+    margin-top:10px;
+    }
+
+.card-about {
+  height: auto;
 }
 
 footer {
