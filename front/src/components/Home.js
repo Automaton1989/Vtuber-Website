@@ -1,11 +1,10 @@
 import "../App.css";
-/*import React, { useEffect, useState } from "react";*/
-/*import { useNavigate, Link } from "react-router-dom";*/
+import React, { useEffect, useState } from "react";
+//import { useNavigate, Link } from "react-router-dom";
 import HomeMain from "./homepage/HomeMain.js"
 import HomeCards from "./homepage/HomeCards.js"
 
 function Home() {
-	/*
 	const [products, setProducts] = useState([]);
 
 
@@ -21,7 +20,6 @@ function Home() {
 		};
 		fetchData();
 	}, [])
-	*/
 /*
 
 <div id = "home-page-creators" className = "row">
