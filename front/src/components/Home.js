@@ -55,6 +55,18 @@ function Home() {
 		<div className = "container-fluid">
 			<HomeMain />
 			<HomeCards />
+			<div className="row">
+          		{products.map(function (product, index) {
+            	return (
+              <div
+                key={index}
+                className="products col-9 col-md-6 col-lg-4 col-xl-3 col-xs-12"
+              >
+                    <h2>{product.name}</h2>
+              </div>
+            );
+          })}
+        </div>
 		</div>
 	);
 }
