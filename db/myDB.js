@@ -2,7 +2,8 @@ const { MongoClient } = require("mongodb");
 require("dotenv").config();
 const ObjectId = require("mongodb").ObjectId;
 
-const url = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@fullauto.io459.mongodb.net/FullAutoDB?retryWrites=true&w=majority`;
+//`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@fullauto.io459.mongodb.net/FullAutoDB?retryWrites=true&w=majority`
+const url = process.env.MONGODB_URI;
 const client = new MongoClient(url, { useUnifiedTopology: true });
 const db = client.db("FullAutoDB");
 const products = db.collection("products");
