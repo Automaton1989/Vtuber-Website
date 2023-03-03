@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function HomeCards() {
 	return (
-		<div id = "card-row" className = "row">
+		<div className = "card-row row">
 			<div className = "d-block col-sm-12 col-md-6 col-lg-4 col-xl-3">
 				<div className="card">
 				  <h5 className="card-header">VTuber, Content Creator</h5>
