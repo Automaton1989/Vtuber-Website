@@ -174,7 +174,7 @@ code {
   padding-bottom: 1rem;
 }
 
-#card-row {
+.card-row {
   padding-top: 1.5rem;
 }
 
@@ -286,6 +286,10 @@ ABOUT ME STYLE
 
 .card-about {
   height: auto;
+}
+
+.card-special {
+  height: 45px;
 }
 
 footer {

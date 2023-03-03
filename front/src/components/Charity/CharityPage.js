@@ -1,12 +1,15 @@
 import "../.././App.css";
+import CharityDesc from "./CharityDesc.js";
+import CharitySect from "./CharitySect.js";
+import CharityGuests from "./CharityGuests.js";
 
 function CharityPage() {
 	return(
 		<div>
 			<div className = "container-fluid">
-				<div className = "row">
-					<h1>I'm Here</h1>
-				</div>
+				<CharityDesc />
+				<CharitySect />
+				<CharityGuests />
 			</div>
 		</div>
 	);
