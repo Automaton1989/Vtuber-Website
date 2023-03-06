@@ -207,7 +207,6 @@ ABOUT ME STYLE
 #ATBackground
 {
     top: 50px;
-    height: 40%
 }
 
 .profile-card-3 {
@@ -230,7 +229,6 @@ ABOUT ME STYLE
     .profile-card-3 .background-block .background {
         position: relative;
         top: 130px;
-        height: 100%;
         width: 37%;
         opacity: 0.9;
             -webkit-transform: scale(1.8);
@@ -273,6 +271,11 @@ ABOUT ME STYLE
     transform: translate(-50%, 0%);
     z-index:2;
     }
+
+    .profile-card-3 .card-text {
+      text-align: left;
+    }
+
     .profile-card-3 h2 {
     margin: 0 0 5px;
     font-weight: 600;
@@ -284,12 +287,30 @@ ABOUT ME STYLE
     margin-top:10px;
     }
 
+    .profile-card-3 .icon-block{
+        width:100%;
+        text-align: left;
+    }
+      .profile-card-3 .icon-block img {
+        width: 25px;
+        border-radius: 25px;
+        transition: transform .2s;
+        margin: 0.25rem;
+      }
+      .profile-card-3 .icon-block img:hover {
+        transform: scale(1.2);
+      }
+
 .card-about {
   height: auto;
 }
 
 .card-special {
   height: 45px;
+}
+
+.card-body {
+  text-align: left;
 }
 
 footer {

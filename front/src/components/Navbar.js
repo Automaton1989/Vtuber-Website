@@ -54,13 +54,13 @@ function Navbar() {
         <div className="collapse navbar-collapse in" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" target ="_blank" href="https://www.twitch.tv/autowhale">Stream</a>
+              <a className="nav-link" target ="_blank" rel="noreferrer" href="https://www.twitch.tv/autowhale">Stream</a>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/charity">Charity</Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" target="_blank" href="https://merch.streamelements.com/automaton1989">Merch</a>
+              <a className="nav-link" target="_blank" rel="noreferrer" href="https://merch.streamelements.com/automaton1989">Merch</a>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about">About Me</Link>
