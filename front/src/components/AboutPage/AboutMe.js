@@ -1,6 +1,9 @@
 import "../.././App.css";
 import React from "react";
 import pic from ".././img/pfp-Halloween.png"
+import twitter from ".././img/Twitter_Logo.png"
+import twitch from ".././img/Twitch_Logo.png"
+import youtube from ".././img/YouTube_Logo.png"
 import back from ".././img/Halloween.jpg"
 
 function AboutMe() {
@@ -8,7 +11,7 @@ function AboutMe() {
 		<div>
 			<div className = "container-fluid">
 				<div id = "about-header-card" className = "row">
-					<div className="card-wrapper col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4">
+					<div className="card-wrapper col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
 						<div  className="card profile-card-3">
 							<div className="background-block">
 								<img alt="Background of Halloween Kailani" className="background" id="ATBackground" src={back}/>
@@ -25,12 +28,17 @@ function AboutMe() {
 								<p className = "card-text">
 									I stream on Twitch, make YouTube/Tiktok videos, and play lots of Pokemon and Monster Tamer games.
 								</p>
+								<div className = "icon-block">
+									<a href = "https://twitter.com/Auto_Kailani" rel="noreferrer" target = "_blank"><img src = {twitter} alt = "twitter logo" /></a>
+									<a href = "https://www.twitch.tv/autowhale" rel="noreferrer" target = "_blank"><img src = {twitch} alt = "twitter logo" /></a>
+									<a href = "https://www.youtube.com/@auto_kailani" rel="noreferrer" target = "_blank"><img src = {youtube} alt = "twitter logo" /></a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div className = "row">
-					<div className = "col-12 col-sm-8 offset-sm-2  col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4">
+					<div className = "col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
 						<div className="card card-about">
 							<div className="card-body">
 								I started streaming over 6 years ago, and started to be a Vtuber about 6 months ago.  My OC is a whale, and his friend Kailani.
@@ -42,7 +50,7 @@ function AboutMe() {
 					</div>
 				</div>
 				<div className = "row">
-					<div className = "col-12 col-sm-8 offset-sm-2  col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4">
+					<div className = "col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
 						<div className="card card-about">
 							<div className="card-body">
 								IRL, I am in school finishing a Master's in Computer Science, and I made this website myself!  I really enjoy making small websites,
