@@ -1,5 +1,5 @@
 import "../../App.css";
-import pic from "../img/Halloween.jpg"
+import pic from "../img/Kailani_Kimono.jpg"
 import {  Link } from "react-router-dom";
 
 function HomeMain() {

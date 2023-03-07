@@ -38,7 +38,7 @@ import {  Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
         <Link to="/" className="navbar-brand" href="#">AUTO LOGO</Link>
           <button
             className="navbar-toggler collapsed"
