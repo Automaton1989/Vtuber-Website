@@ -1,10 +1,10 @@
 import "../.././App.css";
 import React from "react";
-import pic from ".././img/pfp-Halloween.png"
+import pic from ".././img/spring_pfp.png"
 import twitter from ".././img/Twitter_Logo.png"
 import twitch from ".././img/Twitch_Logo.png"
 import youtube from ".././img/YouTube_Logo.png"
-import back from ".././img/Halloween.jpg"
+import back from ".././img/Kailani_Kimono.jpg"
 
 function AboutMe() {
 	return (
