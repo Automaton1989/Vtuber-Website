@@ -22,7 +22,7 @@ function StreamMain() {
 					<iframe
 					  title = "Auto Stream Chat"
 					  id="twitch_stream_chat"
-					  src="https://www.twitch.tv/embed/autowhale/chat?parent=localhost"
+					  src="https://www.twitch.tv/embed/autowhale/chat?parent=autokailani.herokuapp.com"
 					  >
 					</iframe>
 				</div>
