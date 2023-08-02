@@ -53,9 +53,11 @@ function AboutMe() {
 					<div className = "col-12 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-8 offset-xl-2">
 						<div className="card card-about">
 							<div className="card-body">
-								IRL, I am in school finishing a Master's in Computer Science, and I made this website myself!  I really enjoy making small websites,
-								I've made websites for friends and my previous business endeavors in the past.  I hope you enjoy my content, and if you want to support
-								me further, feel free to head over to the social section of the website and follow me there!
+								IRL, I work full time as a product owner at a small company, recently graduating with a Master's in Computer Science!
+								I try to keep myself busy outside of work with streaming, traveling with family, and playing with my dog Orion!  
+								Sadly, my other dog Stella passed away at the end of July, so while mourning her loss, I thought I would try my best to 
+								get back into building this little personal site!  Thanks for stopping by, and just an FYI, there's a secret link to see 
+								my pictures of Stella :)
 							</div>
 						</div>
 					</div>

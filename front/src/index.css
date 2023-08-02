@@ -313,7 +313,7 @@ ABOUT ME STYLE
     position: relative;
     overflow: hidden;
     text-align: center;
-    height:368px;
+    height:420px;
     border:none;
     margin-bottom: 1rem;
 }
@@ -367,7 +367,7 @@ ABOUT ME STYLE
         text-align: left;
     }
       .profile-card-3 .icon-block img {
-        width: 25px;
+        width: 50px;
         border-radius: 25px;
         transition: transform .2s;
         margin: 0.25rem;
