@@ -38,7 +38,7 @@ import {  Link } from "react-router-dom";
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top">
+      <nav className="summer navbar navbar-expand-lg navbar-dark fixed-top">
         <Link to="/" className="navbar-brand" href="#">AUTO LOGO</Link>
           <button
             className="navbar-toggler collapsed"
@@ -54,13 +54,10 @@ function Navbar() {
         <div className="collapse navbar-collapse in" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" target ="_blank" rel="noreferrer" href="https://www.twitch.tv/autowhale">Stream</a>
+              <a className="nav-link" target ="_blank" rel="noreferrer" href="https://vstream.com/c/@Auto">Stream</a>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/charity">Charity</Link>
-            </li>
-            <li className="nav-item active">
-              <a className="nav-link" target="_blank" rel="noreferrer" href="https://merch.streamelements.com/automaton1989">Merch</a>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about">About Me</Link>

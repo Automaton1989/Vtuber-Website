@@ -76,13 +76,84 @@ body {
   box-shadow: 0 0 0 0.25rem #8B1515;
 }
 
-.navbar {
-  background-color: #2E4266;
+
+/* SUMMER */
+
+.summer p, h1, h2, h3, h4, h5 {
+  color: white;
+  text-align: left;
+}
+
+.summer button {
+  color: white;
+  background-color: #5896CC;
+  border: 1px #5896CC;
+}
+
+.summer button:hover {
+  background-color: #7BB9EF;
+  border-color: #7BB9EF;
   color: white;
 }
 
+.summer button:active {
+  background-color: #5896CC;
+  border-color: #5896CC;
+  color: white;
+}
 
-/* SUMMER */
+.summer button:focus {
+  background-color: #7BB9EF;
+  border-color: #7BB9EF;
+  color: white;
+  box-shadow: 0 0 0 0.25rem #7BB9EF;
+}
+
+.summer .btn-card {
+  border-radius: 0px;
+  color: white;
+  background-color: #5896CC;
+  border: 1px #5896CC;
+}
+
+.summer .btn-card:hover {
+  background-color: #7BB9EF;
+  border-color: #7BB9EF;
+  color: white;
+}
+
+.summer .btn-card:active {
+  background-color: #5896CC;
+  border-color: #5896CC;
+  color: white;
+}
+
+.summer .btn-card:focus {
+  background-color: #7BB9EF;
+  border-color: #7BB9EF;
+  color: white;
+  box-shadow: 0 0 0 0.25rem #7BB9EF;
+}
+
+.summer .card {
+  height: 250px;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #273B84;
+  color: white;
+}
+
+.summer .card-header {
+  border-bottom: solid 0.1rem #5896CC;
+}
+
+/* END SUMMER */
+
+.navbar {
+  background-color: #273B84;
+  color: white;
+}
 
 /* SEASONAL ITEMS (CHANGE PER SEASON) */ 
 
@@ -114,7 +185,7 @@ body {
 
 .text-container {
   border-radius: 15px;
-  background-color: #2E4266;
+  background-color: #273B84;
 }
 
 .card {
@@ -134,7 +205,7 @@ body {
   width: 100%;
   padding: 15px 25px;
   float:left;
-  background: #2e4266;
+  background: #273B84;
   height:55%;
   border-radius:0 0 5px 5px;
   position: relative;
@@ -142,7 +213,7 @@ body {
   }
   .profile-card-3 .card-content::before {
       content: '';
-      background: #2e4266;
+      background: #273B84;
       width: 120%;
       height: 100%;
       left: 11px;
@@ -305,7 +376,7 @@ ABOUT ME STYLE
 
 #ATBackground
 {
-    top: 50px;
+    top: 115px;
 }
 
 .profile-card-3 {
@@ -378,6 +449,7 @@ ABOUT ME STYLE
 
 .card-about {
   height: auto;
+  background-color: #273B84;
 }
 
 .card-special {

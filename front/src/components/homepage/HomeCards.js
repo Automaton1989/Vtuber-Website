@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function HomeCards() {
 	return (
-		<div className = "card-row row">
-			<div className = "d-block col-sm-12 col-md-6 col-lg-4 col-xl-3">
+		<div className = "card-row row summer">
+			<div className = "d-block col-sm-12 col-md-6 col-lg-4 col-xl-4">
 				<div className="card">
 				  <h5 className="card-header">VTuber, Content Creator</h5>
 				  <div className="card-body">
@@ -14,7 +14,7 @@ function HomeCards() {
 				  <Link to="/about" className="btn btn-card">About Me</Link>
 				</div>
 			</div>
-			<div className = "d-block col-sm-12 col-md-6 col-lg-4 col-xl-3">
+			<div className = "d-block col-sm-12 col-md-6 col-lg-4 col-xl-4">
 				<div className="card">
 				  <h5 className="card-header">Charity Events</h5>
 				  <div className="card-body">
@@ -24,24 +24,14 @@ function HomeCards() {
 				  <Link to="/charity" className="btn btn-card">View Events</Link>
 				</div>
 			</div>
-			<div className = "d-block col-sm-12 col-md-6 col-lg-4 col-xl-3">
+			<div className = "d-block col-sm-12 col-md-6 col-lg-4 col-xl-4">
 				<div className="card">
-				  <h5 className="card-header">Merch</h5>
+				  <h5 className="card-header">Livestreams</h5>
 				  <div className="card-body">
-				    <h5 className="card-title">I have cool merch!</h5>
-				    <p className="card-text">I have a streamelements merch store open!  Filled with great ways to show your support, and holiday themed material!</p>
+				    <h5 className="card-title">Checkout my livestreams!</h5>
+				    <p className="card-text">Check out my livestreams over at Vstream, the Vtuber livestream platform!</p>
 				  </div>
-				    <a href="https://merch.streamelements.com/automaton1989" target="_blank" rel="noreferrer" className="btn btn-card">Go to Store</a>
-				</div>
-			</div>
-			<div className = "d-block col-sm-12 col-md-6 col-lg-4 col-xl-3">
-				<div className="card">
-				  <h5 className="card-header">Socials</h5>
-				  <div className="card-body">
-				    <h5 className="card-title">Find my content!</h5>
-				    <p className="card-text">You can view all my socials on carrd if you'd like to follow my content!</p>
-				  </div>
-				  <a href="https://auto-kailani.carrd.co" target="_blank" rel="noreferrer" className="btn btn-card">Socials</a>
+				  <a href="https://vstream.com/c/@Auto" target="_blank" rel="noreferrer" className="btn btn-card">Vstream</a>
 				</div>
 			</div>
 		</div>

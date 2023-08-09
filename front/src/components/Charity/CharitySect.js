@@ -3,7 +3,7 @@ import "../.././App.css";
 function CharitySect() {
 	return(
 		<div>
-			<div className = "card-row row">
+			<div className = "summer card-row row">
 				<div className = "d-block col-sm-12 col-md-6 col-lg-6 col-xl-6">
 					<div className="card">
 					  <h5 className="card-header">AutoWhale supports Monterey Bay Aquarium</h5>
