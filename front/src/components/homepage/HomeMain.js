@@ -1,10 +1,10 @@
 import "../../App.css";
-import pic from "../img/Kailani_Kimono.jpg"
+import pic from "../img/Kailani_Queen_bg.jpg"
 import {  Link } from "react-router-dom";
 
 function HomeMain() {
 	return(
-		<div id = "home-page-main" className = "row">
+		<div id = "home-page-main" className = "row summer">
 			<div className = "col-12">
 				<img src = {pic} id = "home-page-main-img" alt="Auto and Kailani Halloween background" />
 				<div className = "text-container container-img-sm d-block d-sm-block d-md-none">

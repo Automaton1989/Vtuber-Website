@@ -1,10 +1,12 @@
 import "../.././App.css";
 import React from "react";
-import pic from ".././img/spring_pfp.png"
+import pic from ".././img/pfp_Summer.jpg"
 import twitter from ".././img/Twitter_Logo.png"
 import twitch from ".././img/Twitch_Logo.png"
 import youtube from ".././img/YouTube_Logo.png"
-import back from ".././img/Kailani_Kimono.jpg"
+import vstream from ".././img/vstream_logo.png"
+import tiktok from ".././img/tiktok_logo.png"
+import back from ".././img/Kailani_Queen_bg.jpg"
 
 function AboutMe() {
 	return (
@@ -30,8 +32,10 @@ function AboutMe() {
 								</p>
 								<div className = "icon-block">
 									<a href = "https://twitter.com/Auto_Kailani" rel="noreferrer" target = "_blank"><img src = {twitter} alt = "twitter logo" /></a>
-									<a href = "https://www.twitch.tv/autowhale" rel="noreferrer" target = "_blank"><img src = {twitch} alt = "twitter logo" /></a>
-									<a href = "https://www.youtube.com/@auto_kailani" rel="noreferrer" target = "_blank"><img src = {youtube} alt = "twitter logo" /></a>
+									<a href = "https://www.twitch.tv/autowhale" rel="noreferrer" target = "_blank"><img src = {twitch} alt = "twitch logo" /></a>
+									<a href = "https://vstream.com/c/@Auto" rel="noreferrer" target = "_blank"><img src = {vstream} alt = "vstream logo" /></a>
+									<a href = "https://www.youtube.com/@auto_kailani" rel="noreferrer" target = "_blank"><img src = {youtube} alt = "youtube logo" /></a>
+									<a href = "https://www.tiktok.com/@auto_kailani" rel="noreferrer" target = "_blank"><img src = {tiktok} alt = "tiktok logo" /></a>
 								</div>
 							</div>
 						</div>
