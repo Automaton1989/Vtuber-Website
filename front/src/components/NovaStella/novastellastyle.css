@@ -16,21 +16,26 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 100%;
+    transition: transform .2s;
   }
-  /*
+  
   div.gallery:hover {
-    border: 1px solid #777;
+    transform: scale(1.1);
   }
-  */
+  
   
   div.gallery img {
     width: 100%;
-    height: auto;
+    height: 300px;
+    object-fit: contain;
+    background-color: #273b84;
   }
   
   div.desc {
     padding: 15px;
     text-align: center;
+    background-color: #273b84;
+    color: white;
   }
 
   #gallery img {
