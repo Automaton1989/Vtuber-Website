@@ -6,7 +6,7 @@ function NovaStellaHome() {
 	return(
 		<div className = "container-fluid">
             <div className = "row">
-                <h2>COMING SOON...</h2>
+                <h2>Nova Stella!</h2>
 				<TalentGallery />
             </div>
 		</div>
