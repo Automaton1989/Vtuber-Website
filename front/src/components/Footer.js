@@ -5,7 +5,7 @@ function Footer() {
   return (
 	<footer className="footer">
       <div className="container">
-        <span className="text-light">Place sticky footer content here.</span>
+        <span className="text-dark">FOOTER CONTENT HERE</span>
       </div>
     </footer>
   );

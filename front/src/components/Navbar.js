@@ -53,14 +53,17 @@ function Navbar() {
           </button>
         <div className="collapse navbar-collapse in" id="navbarNav">
           <ul className="navbar-nav">
+          <li className="nav-item">
+              <Link className="nav-link" to="/Novastella">Nova Stella</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">About Me</Link>
+            </li>
             <li className="nav-item active">
               <a className="nav-link" target ="_blank" rel="noreferrer" href="https://vstream.com/c/@Auto">Stream</a>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/charity">Charity</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/about">About Me</Link>
             </li>
           </ul>
         </div>

@@ -1,10 +1,13 @@
 import "../.././App.css";
+import "./novastellastyle.css";
+import TalentGallery from ".././NovaStella/NovaStellaGallery.js"
 
 function NovaStellaHome() {
 	return(
 		<div className = "container-fluid">
             <div className = "row">
-                <h2>Hello Nova Stella</h2>
+                <h2>COMING SOON...</h2>
+				<TalentGallery />
             </div>
 		</div>
 	);
