@@ -53,8 +53,13 @@ function Navbar() {
           </button>
         <div className="collapse navbar-collapse in" id="navbarNav">
           <ul className="navbar-nav">
-          <li className="nav-item">
-              <Link className="nav-link" to="/Novastella">Nova Stella</Link>
+          <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href = "#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nova Stella</a>
+              <ul className="dropdown-menu">
+                <li><Link className="dropdown-item" to="/Novastella">About</Link></li>
+                <li><Link className="dropdown-item" to="/Novastella/talent">Talent</Link></li>
+                <li><Link className="dropdown-item" to="/Novastella/sponsors">Sponsors & Affiliates</Link></li>
+              </ul>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about">About Me</Link>
