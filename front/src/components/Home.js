@@ -51,10 +51,7 @@ function Home() {
 
 */
 
-	return (
-		<div className = "spring container-fluid">
-			<HomeMain />
-			<HomeCards />
+/*
 			<div className="row">
           		{products.map(function (product, index) {
             	return (
@@ -66,7 +63,13 @@ function Home() {
               </div>
             );
           })}
-        </div>
+        	</div>
+*/
+
+	return (
+		<div className = "spring container-fluid">
+			<HomeMain />
+			<HomeCards />
 		</div>
 	);
 }
