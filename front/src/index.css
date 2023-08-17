@@ -201,6 +201,10 @@ body {
   border-bottom: solid 0.1rem #F3B4C6;
 }
 
+.card-content h2{
+  color: white;
+}
+
 .profile-card-3 .card-content {
   width: 100%;
   padding: 15px 25px;

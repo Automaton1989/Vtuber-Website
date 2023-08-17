@@ -90,5 +90,16 @@ div.gallery {
   /* NOVA STELLA AFFILIATES PAGE */
   #nova-stella-affiliates {
     margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  #nova-stella-affiliates .affiliate-row {
+    margin-bottom: 1rem;
+  }
+
+  #nova-stella-affiliates .card {
+    height: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem!important;
   }
 
