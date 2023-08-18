@@ -93,6 +93,10 @@ div.gallery {
     margin-bottom: 5rem;
   }
 
+  .g-0 {
+    margin: 0rem;
+  }
+
   #nova-stella-affiliates .affiliate-row {
     margin-bottom: 1rem;
   }
@@ -103,3 +107,11 @@ div.gallery {
     margin-bottom: 0rem!important;
   }
 
+  #nova-stella-affiliates img {
+    height: 100%;
+    width: 200px;
+  }
+
+  #patreon {
+    padding: 1rem;
+  }
