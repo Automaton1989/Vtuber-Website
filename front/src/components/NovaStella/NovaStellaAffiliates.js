@@ -1,6 +1,7 @@
 import "../.././App.css";
 import "./novastellastyle.css";
-import test from "../img/Auto_Kailani.png"
+import patreon from "../img/Patreon_logo.png"
+import waifu from "../img/WW_Logo_0727.png"
 
 function NovaStellaAffiliates() {
 	return(
@@ -9,7 +10,7 @@ function NovaStellaAffiliates() {
                 <div className="card mb-3">
                     <div className="row g-0">
                         <div className="col-md-4">
-                        <a href = "https://waifuwares.co.uk/" target="_blank" rel="noreferrer"><img src= {test} className="img-fluid rounded-start" alt="..." /></a>
+                        <a href = "https://waifuwares.co.uk/" target="_blank" rel="noreferrer"><img src= {waifu} className="img-fluid rounded-start" alt="..." /></a>
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
@@ -27,7 +28,7 @@ function NovaStellaAffiliates() {
                 <div className="card mb-3">
                     <div className="row g-0">
                         <div className="col-md-4">
-                            <a href = "https://www.patreon.com/NovaStellaVT" target="_blank" rel="noreferrer"><img src= {test} className="img-fluid rounded-start" alt="..." /></a>
+                            <a href = "https://www.patreon.com/NovaStellaVT" target="_blank" rel="noreferrer"><img id = "patreon" src= {patreon} className="img-fluid rounded-start" alt="..." /></a>
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">
