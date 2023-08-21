@@ -7,8 +7,9 @@ h3 {
     color: black;
 }
 
-.row .gallery {
+.gallery-row {
     margin-bottom: 3rem;
+    margin-top: 4rem;
 }
 
 div.gallery {
@@ -61,7 +62,7 @@ div.gallery {
 
   .nova-container-img-sm {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 10%;
     height: 120px;
     width: 300px;
@@ -70,7 +71,7 @@ div.gallery {
   
   .nova-container-img-md {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 30%;
     height: 110px;
     width: 360px;
@@ -79,7 +80,7 @@ div.gallery {
   
   .nova-container-img-lg {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 35%;
     height: 110px;
     width: 400px;

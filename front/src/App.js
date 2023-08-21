@@ -6,8 +6,8 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import CharityPage from "./components/Charity/CharityPage";
-import NovaStellaHome from './components/NovaStella/NovaStellaAbout';
-import NovaStellaTalent from './components/NovaStella/NovaStellaHome';
+import NovaStellaHome from './components/NovaStella/NovaStellaHome';
+import NovaStellaTalent from './components/NovaStella/NovaStellaGallery';
 import NovaStellaAffiliates from './components/NovaStella/NovaStellaAffiliates';
 import StellaBear from './components/Stella/StellaBear';
 
