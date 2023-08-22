@@ -6,6 +6,7 @@ import waifu from "../img/WW_Logo_0727.png"
 function NovaStellaAffiliates() {
 	return(
         <div id = "nova-stella-affiliates" className="row">
+            <h2>Sponsors and Affiliates</h2>
 			<div className = "affiliate-row d-block col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div className="card mb-3">
                     <div className="row g-0">

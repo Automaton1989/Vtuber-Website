@@ -39,7 +39,7 @@ function Navbar() {
   return (
     <div>
       <nav className="summer navbar navbar-expand-lg navbar-dark fixed-top">
-        <Link to="/" className="navbar-brand" href="#">AUTO LOGO</Link>
+        <Link to="/" className="navbar-brand">Auto & Kailani</Link>
           <button
             className="navbar-toggler collapsed"
             type="button"

@@ -67,7 +67,7 @@ function Home() {
 */
 
 	return (
-		<div className = "spring container-fluid">
+		<div id = "home-main" className = "summer container-fluid">
 			<HomeMain />
 			<HomeCards />
 		</div>

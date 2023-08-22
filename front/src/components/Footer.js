@@ -5,7 +5,7 @@ function Footer() {
   return (
 	<footer className="footer">
       <div className="container">
-        <span className="text-dark">FOOTER CONTENT HERE</span>
+        <span className="text-dark">Made with &#128153; by a cute whale and amazing swimmer</span>
       </div>
     </footer>
   );
