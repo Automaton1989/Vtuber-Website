@@ -29,9 +29,9 @@ function HomeCards() {
 				  <h5 className="card-header">Livestreams</h5>
 				  <div className="card-body">
 				    <h5 className="card-title">Checkout my livestreams!</h5>
-				    <p className="card-text">Check out my livestreams over at Vstream, the Vtuber livestream platform!</p>
+				    <p className="card-text">Check out my livestreams over at Twitch, the Vtuber livestream platform!</p>
 				  </div>
-				  <a href="https://vstream.com/c/@Auto" target="_blank" rel="noreferrer" className="btn btn-card">Vstream</a>
+				  <a href="https://www.twitch.tv/autowhale" target="_blank" rel="noreferrer" className="btn btn-card">Twitch</a>
 				</div>
 			</div>
 		</div>

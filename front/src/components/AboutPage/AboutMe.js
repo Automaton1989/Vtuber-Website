@@ -33,7 +33,6 @@ function AboutMe() {
 								<div className = "icon-block">
 									<a href = "https://twitter.com/Auto_Kailani" rel="noreferrer" target = "_blank"><img src = {twitter} alt = "twitter logo" /></a>
 									<a href = "https://www.twitch.tv/autowhale" rel="noreferrer" target = "_blank"><img src = {twitch} alt = "twitch logo" /></a>
-									<a href = "https://vstream.com/c/@Auto" rel="noreferrer" target = "_blank"><img src = {vstream} alt = "vstream logo" /></a>
 									<a href = "https://www.youtube.com/@auto_kailani" rel="noreferrer" target = "_blank"><img src = {youtube} alt = "youtube logo" /></a>
 									<a href = "https://www.tiktok.com/@auto_kailani" rel="noreferrer" target = "_blank"><img src = {tiktok} alt = "tiktok logo" /></a>
 								</div>
