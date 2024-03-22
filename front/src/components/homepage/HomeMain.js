@@ -1,6 +1,8 @@
 import "../../App.css";
 import pic from "../img/Kailani_Queen_bg.jpg"
 import {  Link } from "react-router-dom";
+import React, { useEffect } from 'react';
+
 
 function HomeMain() {
 	return(

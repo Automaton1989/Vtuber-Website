@@ -7,6 +7,11 @@ import HomeCards from "./homepage/HomeCards.js"
 function Home() {
 	const [products, setProducts] = useState([]);
 
+	function SetPageTitle() {
+		useEffect(() => {
+		  document.title = ' Auto & Kailani | Home';
+		}, []);
+	  }
 
 	useEffect(() => {
 		const fetchData = async () => {
@@ -20,6 +25,10 @@ function Home() {
 		};
 		fetchData();
 	}, [])
+
+	/* FUNCTION CALLS */
+
+	SetPageTitle();
 /*
 
 <div id = "home-page-creators" className = "row">
