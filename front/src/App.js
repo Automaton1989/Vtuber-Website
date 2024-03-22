@@ -6,10 +6,10 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import CharityPage from "./components/Charity/CharityPage";
-import NovaStellaHome from './components/NovaStella/NovaStellaHome';
-import NovaStellaTalent from './components/NovaStella/NovaStellaGallery';
-import NovaStellaAffiliates from './components/NovaStella/NovaStellaAffiliates';
+import GuwaStudiosHome from './components/GuwaStudios/GuwaStudiosHome';
+import GuwaStudiosTalent from './components/GuwaStudios/GuwaStudiosGallery';
 import StellaBear from './components/Stella/StellaBear';
+import GuwaStudiosAffiliates from './components/GuwaStudios/GuwaStudiosAffiliates';
 
 function App() {
   return (
@@ -21,9 +21,9 @@ function App() {
             <Route exact path = "/" element = {<Home />} />
             <Route path = "/about" element = {<AboutMe />} />
             <Route path = "/charity" element = {<CharityPage />} />
-            <Route path = "/Novastella/talent" element = {<NovaStellaTalent />} />
-            <Route path = "/Novastella" element = {<NovaStellaHome />} />
-            <Route path = "/Novastella/sponsors" element = {<NovaStellaAffiliates />} />
+            <Route path = "/GuwaStudios/talent" element = {<GuwaStudiosTalent />} />
+            <Route path = "/GuwaStudios" element = {<GuwaStudiosHome />} />
+            <Route path = "/GuwaStudios/sponsors" element = {<GuwaStudiosAffiliates />} />
             <Route path = "Stella" element = {<StellaBear />} />
           </Routes>
         </div>
